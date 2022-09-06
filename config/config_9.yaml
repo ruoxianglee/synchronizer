@@ -1,0 +1,14 @@
+/**:
+    ros__parameters:
+      # The ratio T^W/T^B (1.0, 1.2, 1.4, 1.6, 1.8)
+      period_factor: 1.0
+      # Enable the period_factor or not
+      msg_period_bias_flag: false
+  
+      # Message delay options. 0: no delay; 1: delay 1-40 ms; 2: delay 0 to upper limit ms
+      msg_delay_opt: 2
+      # Message delay upper limit (0, 10, 20, 30, 40)
+      delay_upper: 30
+  
+      # Required number of published sets
+      num_published_set: 200
